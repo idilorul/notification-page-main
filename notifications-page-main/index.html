@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="general.css" />
+    <script defer type="module" src="script.js"></script>
+
+    <title>Frontend Mentor | Notifications page</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body>
+    <section>
+      <div class="screen">
+        <div class="screen__top">
+          <div class="screen__top__left">
+            <h1 class="title">Notifications</h1>
+            <button class="number__ntfctn"><strong>3</strong></button>
+          </div>
+          <div class="screen__top__right">
+            <a class="top__right__text" href="#"
+              ><strong>Mark all as read</strong></a
+            >
+          </div>
+        </div>
+        <div class="notification__new color">
+          <img
+            class="mark__img"
+            src="assets/images/avatar-mark-webber.webp"
+            alt=""
+          />
+          <div class="new__one">
+            <div class="one__in">
+              <a class="one__name new__name" href="#"
+                ><strong>Mark Webber</strong></a
+              >
+              <p class="one__exmp">reacted to your recent post</p>
+              <a class="one__comment" href="#"
+                ><strong>My first tournament today!</strong></a
+              >
+              <button class="new__sign">.</button>
+            </div>
+            <p class="time">1m ago</p>
+          </div>
+        </div>
+        <div class="notification__new color notification__angela">
+          <img
+            class="mark__img"
+            src="assets/images/avatar-angela-gray.webp"
+            alt=""
+          />
+          <div class="new__one">
+            <div class="one__in">
+              <a class="one__name new__name angela__name" href="#"
+                ><strong>Angela Gray</strong></a
+              >
+              <p class="one__exmp">followed you</p>
+              <button class="new__sign angela">.</button>
+            </div>
+            <p class="time">5m ago</p>
+          </div>
+        </div>
+        <div class="notification__new color notification__jacob">
+          <img
+            class="mark__img"
+            src="assets/images/avatar-jacob-thompson.webp"
+            alt=""
+          />
+          <div class="new__one">
+            <div class="one__in">
+              <a class="one__name new__name jacob__name" href="#"
+                ><strong>Jacob Thompson</strong></a
+              >
+              <p class="one__exmp">has joined your group</p>
+              <a class="one__comment" href="#"><strong>Chess Club</strong></a>
+              <button class="new__sign jacob">.</button>
+            </div>
+            <p class="time">1 day ago</p>
+          </div>
+        </div>
+        <div class="notification__new">
+          <img
+            class="mark__img"
+            src="assets/images/avatar-rizky-hasanuddin.webp"
+            alt=""
+          />
+          <div class="new__one">
+            <div class="one__in">
+              <a class="one__name" href="#"
+                ><strong>Rizky Hasanuddin</strong></a
+              >
+              <p class="one__exmp">sent you a private message</p>
+            </div>
+            <p class="time">5 days ago</p>
+          </div>
+        </div>
+        <p class="hello__text">
+          Hello, thanks for setting up the Chess Club. I've been a member for a
+          few weeks now and I'm already having lots of fun and improving my
+          game.
+        </p>
+        <div class="notification__new">
+          <img
+            class="mark__img"
+            src="assets/images/avatar-kimberly-smith.webp"
+            alt=""
+          />
+          <div class="new__one">
+            <div class="one__in">
+              <a class="one__name" href="#"><strong>Kimberly Smith</strong></a>
+              <p class="one__exmp">commented on your picture</p>
+            </div>
+            <p class="time">1 week ago</p>
+          </div>
+          <img class="img__chess" src="assets/images/image-chess.webp" alt="" />
+        </div>
+        <div class="notification__nathan">
+          <img
+            class="nathan__img"
+            src="assets/images/avatar-nathan-peterson.webp"
+            alt=""
+          />
+          <div class="new__one">
+            <div class="one__in">
+              <a class="nathan__name" href="#"
+                ><strong>Nathan Peterson</strong></a
+              >
+              <p class="exmp__nathan">reacted to your recent post</p>
+              <a class="nathan__comment" href="#"
+                ><strong
+                  >5 end-game strategies to increase your win rate</strong
+                ></a
+              >
+            </div>
+            <p class="nathan__time">2 weeks ago</p>
+          </div>
+        </div>
+        <div class="notification__new">
+          <img
+            class="mark__img"
+            src="assets/images/avatar-anna-kim.webp"
+            alt=""
+          />
+          <div class="new__one">
+            <div class="one__in">
+              <a class="one__name" href="#"><strong>Anna Kim</strong></a>
+              <p class="one__exmp">left the group</p>
+              <a class="one__comment" href="#"><strong>Chess Club</strong></a>
+            </div>
+            <p class="time">5 days ago</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
+<div class="attribution">
+  Challenge by
+  <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+    >Frontend Mentor</a
+  >. Coded by <a href="#">Your Name Here</a>.
+</div>
